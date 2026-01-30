@@ -213,18 +213,9 @@ U-Net은 이미지의 **전반적인 컨텍스트(Context) 정보를 얻기 위�
 
 ---
 
-## 5. 예측 결과 시각화(선택)
+## 5. 결과 시각화
 
-노트북에서 입력 이미지, 정답 마스크, 예측 마스크를 시각화하여 저장할 수 있습니다. 아래 파일명으로 저장하면 README에서 바로 확인할 수 있습니다.
-
-- `../img/pred_input.png`
-- `../img/pred_gt.png`
-- `../img/pred_overlay.png`
-
-예시(파일이 없으면 추후 추가)
-
-![Prediction Overlay](../img/pred_overlay.png)
-_출처: 본 실험 결과(로컬 생성)_
+![alt text](image.png)
 
 ---
 
