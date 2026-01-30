@@ -61,8 +61,6 @@ Expanding Path는 Contracting Path에서 얻은 저해상도 특징 맵(Coarse M
 
 ## Skip Architecture (Skip Connection)
 
-![Skip Connection](https://www.mdpi.com/processes/processes-13-01976/article_deploy/html/images/processes-13-01976-g001.png)
-
 U-Net은 FCN에서 제안된 **Skip Architecture** 개념을 확장하여 사용한다. Encoder의 얕은 층에서 추출된 **fine-grained location 정보**와, 깊은 층에서 추출된 **global semantic 정보**를 Decoder에서 결합(concatenation)한다.
 
 이러한 구조를 통해 Segmentation 문제에서 발생하는  
