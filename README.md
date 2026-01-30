@@ -4,8 +4,7 @@ U-Net은 **Biomedical 분야의 이미지 분할(Image Segmentation)**을 목적
 
 네트워크의 전체 구조가 좌우 대칭의 ‘U’자 형태를 띠고 있어 **U-Net**이라는 이름이 붙여졌다.
 
-![U-Net Architecture](https://media.geeksforgeeks.org/wp-content/uploads/20220614121231/Group14.jpg)  
-![U-Net Encoder-Decoder](https://www.researchgate.net/publication/366612721/figure/fig4/AS%3A11431281109636269%401672146713147/Basic-UNet-architecture-showing-encoder-decoder-bridge-network-and-skip-connection.png)
+![U-Net Architecture](https://media.geeksforgeeks.org/wp-content/uploads/20220614121231/Group14.jpg) 
 
 ---
 
@@ -80,8 +79,6 @@ U-Net은 Fully Connected Layer를 사용하지 않는 **Fully Convolutional Netw
 ---
 
 ## Overlap-Tile Input Strategy
-
-![Overlap Tile](https://www.researchgate.net/publication/350484428/figure/fig2/AS%3A1006897591238656%401617074501235/U-Net-Overlap-tile-strategy-for-seamless-segmentation-of-arbitrary-large-images-here.ppm)
 
 U-Net은 FCN 구조이기 때문에 입력 이미지 크기에 제약이 없지만, 고해상도 의료 영상을 그대로 입력할 경우 메모리 사용량이 급격히 증가한다. 이를 해결하기 위해 **Overlap-Tile 전략**이 제안되었다.
 
